@@ -33,3 +33,5 @@
 - pip install pytest-xdist 
 - pip install mysql-connector-python
 - pip install pytest-reportportal
+
+pytest -n auto tests/vwoLoginTests/pom/test_*
