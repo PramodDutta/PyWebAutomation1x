@@ -12,6 +12,7 @@ class TestLogin():
     @pytest.mark.usefixtures("setup")
     def test_katalon_login(self, setup):
         driver = setup
+        # Use the Excel here
         driver.get(self.katalon_url)
         khp = KatalonHomePage(driver)
         khp.click_homepage()

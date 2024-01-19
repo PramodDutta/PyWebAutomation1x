@@ -28,3 +28,9 @@ class KatalonHomePage():
     def click_homepage(self):
         time.sleep(3)
         self.get_make_appointment().click()
+
+    def click_homepage(self,username):
+        time.sleep(3)
+        self.get_make_appointment().click()
+
+
